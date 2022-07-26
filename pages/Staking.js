@@ -1,10 +1,8 @@
 import React from "react";
-import Partners  from "../components/__common/Partners";
-import StakingTable from "../components/Staking"
-
+import Partners from "../Components/__common/Partners";
+import StakingTable from "../Components/Staking";
 
 const StakingPage = () => {
-
   return (
     <>
       <StakingTable />

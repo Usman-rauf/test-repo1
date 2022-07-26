@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 import { useState } from "react";
-import CoinForm from '../components/AddCoins/AddCoinsForm';
-
+import CoinForm from "../Components/AddCoins/AddCoinsForm";
 
 const AddCoins = () => {
   return (
     <>
-        <CoinForm />
-        </>
-
-  )
-}
+      <CoinForm />
+    </>
+  );
+};
 
 export default AddCoins;

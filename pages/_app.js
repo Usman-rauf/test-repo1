@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import Layout from '../Components/__common/LandingLayout/index'
+import Layout from "../Components/__common/LandingLayout";
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -7,7 +7,6 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </Layout>
     </>
-    
   );
 }
 
