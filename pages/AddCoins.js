@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import CoinForm from "../Components/AddCoins/AddCoinsForm";
+import CoinForm from "../components/AddCoins/AddCoinsForm";
 
 const AddCoins = () => {
   return (
