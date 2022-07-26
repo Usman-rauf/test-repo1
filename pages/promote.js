@@ -1,5 +1,5 @@
 import React from "react";
-import PromoteComp from "../Components/Promote";
+import PromoteComp from "../components/Promote";
 
 const permote = () => {
   return (
