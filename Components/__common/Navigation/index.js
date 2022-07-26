@@ -2,7 +2,7 @@ import styles from "./navigation.module.scss";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import Modal from "../Modal/modal";
+import Modal from "../Modal/Modal";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 import MobileMenu from "../MobileMenu";

@@ -1,13 +1,12 @@
-import React from 'react'
-import PromoteComp from '../components/Promote'
+import React from "react";
+import PromoteComp from "../Components/Promote";
 
 const permote = () => {
   return (
     <>
-
-<PromoteComp/>
+      <PromoteComp />
     </>
-  )
-}
+  );
+};
 
-export default permote
+export default permote;

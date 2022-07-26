@@ -1,13 +1,12 @@
-import React from 'react'
-import PortfolioComp from '../components/Portfolio'
+import React from "react";
+import PortfolioComp from "../Components/Portfolio";
 
 const portfolio = () => {
   return (
     <div>
-       <PortfolioComp />
-        
+      <PortfolioComp />
     </div>
-  )
-}
+  );
+};
 
-export default portfolio
+export default portfolio;
