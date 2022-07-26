@@ -1,0 +1,39 @@
+.wrapper {
+  @apply w-screen min-h-[100vh] flex flex-col items-center bg-white fixed top-0 right-0 p-10 z-[1000];
+  .closeRow {
+    @apply w-full flex justify-end;
+    .closeIcon {
+      @apply text-4xl cursor-pointer;
+      color: linear-gradient(to right, #CE6CF7, #5860CB) !important; 
+
+    }
+  }
+  .linksContainer {
+    @apply w-full h-full flex flex-col items-center justify-center;
+    .links {
+      @apply w-full h-full flex flex-col justify-center items-center mb-56 max-w-[500px];
+      .inactive {
+        @apply w-full text-2xl text-red-400 capitalize text-center px-4 py-6 border-b-2 border-gray-500;
+      }
+      .active {
+        @apply w-full text-2xl text-white uppercase text-center px-4 py-6 border-b-2 border-white;
+      }
+      .button {
+        @apply w-full flex items-center justify-center gap-3 
+        p-3 mt-10 rounded-md;
+        background-image: linear-gradient(to right, #CE6CF7, #5860CB) !important; 
+
+        span {
+          @apply text-lg;
+        }
+      }
+    }
+  }
+}
+:global(.dark) .wrapper{
+  background-color: black;
+}
+
+:global(.dark) .closeIcon{
+  @apply text-4xl text-white
+}

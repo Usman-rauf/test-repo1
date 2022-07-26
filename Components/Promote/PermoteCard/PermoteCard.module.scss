@@ -1,0 +1,55 @@
+.cardHeading {
+  @apply text-center text-[25px] my-7 font-medium;
+}
+.uperGrid {
+  @apply grid grid-cols-12;
+
+  .uperSpan {
+    @apply xl:col-span-8 col-span-12 xl:col-start-3;
+
+    .inerGrid {
+      @apply grid grid-cols-12;
+
+      .inerSpan {
+        @apply lg:col-span-4 md:col-span-6 col-span-12;
+            
+        .card {
+          @apply bg-[#EFEFF0] transition ease-in-out duration-1000 min-h-[350px] rounded-md dark:text-white opacity-90 m-1 p-3 py-10;
+          &:hover {
+            transform: scale(1.1);
+            background-color: #1c2024 !important;
+            color: white;
+            cursor: pointer;
+           
+          }
+          .logo{
+            @apply w-full mb-10 text-center;
+        }
+          .section {
+            @apply text-[18px];
+          }
+          .flexx{
+            @apply flex mt-3
+          }
+          .cardText{
+            @apply text-[14px] whitespace-nowrap ml-3
+          }
+        }
+      }
+    }
+  }
+}
+
+:global(.dark) .cardText{
+    color: white;
+}
+
+:global(.dark) .card {
+  background-color: rgba(238, 248, 255, 0.1) !important;
+}
+:global(.dark) .card {
+  color: white;
+}
+:global(.dark) .cardHeading {
+  color: white;
+}

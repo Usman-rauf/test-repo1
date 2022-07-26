@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: poppins !important;
+}
+.react-multiple-carousel__arrow--right {
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+  border-radius: 20% !important;
+}
+.react-multiple-carousel__arrow--left {
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+  border-radius: 20% !important;
+}
+.nav-button {
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+}
+._3QxTi {
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+}
+.font-normal {
+  font-weight: 400 !important;
+}
+.bgGrad {
+  background-image: linear-gradient(
+    to bottom,
+    #a39f9f 60%,
+    #1c2024 40%
+  ) !important;
+}
+.activeLink {
+  color: #ce6cf7 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0b0f;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+  border-radius: 10px;
+  height: 3px !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0b0b0f;
+}

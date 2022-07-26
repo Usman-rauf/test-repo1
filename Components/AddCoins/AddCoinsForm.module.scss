@@ -1,0 +1,63 @@
+.wrapper{
+    @apply container px-4 mx-auto 
+   
+}
+.containerr{
+    @apply grid lg:grid-cols-12  mb-20  mx-auto
+}
+.formcol{
+@apply lg:col-span-8 w-full rounded-lg lg:col-start-3 p-8 mt-14 col-span-12;
+background-color: rgb(240, 240, 240);
+
+}
+.error{
+  @apply text-red-700 text-sm mt-2;
+}
+:global(.dark) .formcol {
+    @apply lg:col-span-8 w-full lg:col-start-3 p-8 mt-14 col-span-12;
+
+    background-color: #112533;
+
+  }
+  .heading{
+    @apply text-black px-1 py-3 ;
+    font-size: 24px;
+  }
+  :global(.dark) .heading {
+    @apply text-xl m-1;
+    
+    color: white;
+  }
+  .fieldGrid{
+    @apply grid grid-cols-12 w-full
+  }
+  .fieldspan{
+    @apply lg:col-span-6 col-span-12 m-2
+  }
+  .formlabel{
+   @apply block text-black ml-2 mb-1 text-sm;
+   font-size: 12px;
+  }
+  :global(.dark) .formlabel {
+    @apply text-sm ml-2 mb-1;
+    
+    color: #D1E4F3;
+  }
+  .formfield{
+    @apply   rounded w-full py-2 px-3 text-gray-700 focus:outline-none;
+    background-color: #EEF8FF;
+    font-size: 12px;
+  }
+  :global(.dark) .formfield{
+    @apply shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 leading-tight ;
+    background-color: #293B48;
+    color: white;
+  }
+  .buttonsave{
+   @apply bg-blue-500 text-xs text-white py-2 px-4 rounded
+  }
+  .buttoncancel{
+    @apply  text-xs text-white py-2 px-4 rounded;
+    background-color: #293B48;
+
+   }

@@ -1,0 +1,14 @@
+version: '3'
+services:
+
+  coin-app:
+    container_name: coin-official
+    build: 
+        context: .
+        dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    networks:
+      - coin-networks
+networks:
+    coin-networks:

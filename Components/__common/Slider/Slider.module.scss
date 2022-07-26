@@ -1,0 +1,56 @@
+.heropatren {
+    @apply mx-0  p-2 h-48 rounded-md;
+    background-image: linear-gradient(to top, #000 0%, rgba(84, 84, 84, 0.22) 100%), url('../../../public/Assests/slider 1.png');
+    background-repeat: no-repeat;
+    width: 99%;
+    background-size: 100% 100%;
+  
+    @media only screen and (max-width: 1024px) {
+      .heropatren {
+        background-size: auto 100%;
+      }
+    }
+  
+  }
+  .herpatren2 {
+    @apply p-2 mx-0  h-48 bg-no-repeat rounded-md;
+    background-image: linear-gradient(to top, #000 0%, rgba(84, 84, 84, 0.22) 100%), url('../../../public/Assests/slider 3.png');
+    background-repeat: no-repeat;
+   object-fit: contain;
+    width: 99%;
+    background-size: 100% 100%;
+    @media only screen and (max-width: 1024px) {
+      .herpatren2 {
+        background-size: auto 100%;
+      }
+    }
+  
+  
+  
+  
+  }
+  .herpatren3 {
+    @apply p-2 mx-0 h-48  bg-no-repeat rounded-md;
+    background-image: linear-gradient(to top, #000 0%, rgba(84, 84, 84, 0.22) 100%), url('../../../public/Assests/slider 4.png');
+    background-repeat: no-repeat;
+    width: 99%;
+    background-size: 100% 100%;
+    @media only screen and (max-width: 1024px) {
+      .herpatren3 {
+        background-size: auto 100%;
+      }
+    }
+  
+  } 
+  .slidertext{
+    @apply text-sm text-white  text-clip overflow-hidden
+  }
+  .textpossition{
+    @apply absolute bottom-3 left-2 right-6
+  }
+  .cardpossition{
+    @apply relative
+  }
+ .img{
+  @apply object-contain rounded-md
+ }

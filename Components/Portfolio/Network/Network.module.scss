@@ -1,0 +1,182 @@
+.network {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: right;
+
+  .wrapper {
+    width: 100%;
+    padding: 0px 0px;
+    .heading {
+      width: 100%;
+      span {
+        font-weight: 500;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+      }
+    }
+    .graphsection {
+      width: 100%;
+      .graphbody {
+        width: 100%;
+        margin-top: 10px;
+        height: 350px;
+        background-color: #EDEBEF;
+        border-radius: 11px;
+        .graghrole {
+          width: 100%;
+          height: 20%;
+          border-bottom: 1px solid rgb(211, 211, 211);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          overflow-x: auto;
+          .leftheading {
+            width: 30%;
+            max-width: 150px;
+            min-width: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            span {
+              font-size: 17px;
+              font-weight: 500;
+            }
+            p {
+              font-size: 13px;
+            }
+          }
+          .rightheading {
+            width: 70%;
+            min-width: 350px;
+            max-width: 550px;
+            height: 100%;
+            ul {
+              display: flex;
+              
+              align-items: center;
+              height: 100%;
+              li {
+                list-style-type: none;
+                font-size: 8px;
+                margin: 10px;
+                font-weight: bold;
+                button {
+                  outline: none;
+                  border: none;
+                  cursor: pointer;
+                  color: rgb(0, 0, 0);
+                  width: 52px;
+                  height: 30px;
+                  border-radius: 12px;
+                }
+                .activebtn {
+                  background-image: linear-gradient(to right, #CE6CF7, #5860CB) !important; 
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+        .graph {
+          @apply snap-x;
+          width: 97.5%;
+          height: 80%;
+        }
+      }
+    }
+    .Cards {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      row-gap: 10px;
+      margin-top: 20px;
+      column-gap: 10px;
+      .card {
+        width: 342px;
+        height: 135px;
+        background-color: #362d5d;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        span {
+          padding-left: 10px;
+          font-size: 13px;
+          font-weight: 500;
+        }
+        p {
+          padding-left: 10px;
+          font-size: 30px;
+          color: #00eaea;
+        }
+        label {
+          padding-left: 10px;
+          font-size: 12px;
+        }
+      }
+    }
+    .Boxsection {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 13px;
+      row-gap: 10px;
+      .box {
+        width: 260px;
+        height: 150px;
+        background-color: #362d5d;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        span {
+          padding-left: 10px;
+          font-size: 13px;
+          font-weight: 500;
+        }
+        p {
+          padding-left: 10px;
+          font-size: 30px;
+          color: #00eaea;
+        }
+        label {
+          padding-left: 10px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width:1024px) {
+  .network {
+    .wrapper {
+      width: 95%;
+      padding: 0px 0px 30px 0px;
+      .Cards {
+        width: 100%;
+        column-gap: 25px;
+      }
+    }
+  }
+}
+
+:global(.dark) .heading{
+  span{
+  color: white !important;
+  }
+}
+:global(.dark) .graphbody{
+  background-color: #1C2024 !important;
+}
+:global(.dark) .rightheading{
+  button{
+  color: white !important;
+  }
+}

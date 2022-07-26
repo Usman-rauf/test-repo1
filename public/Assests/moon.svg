@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="32" viewBox="0 0 33 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.05" y1="0.171" x2="2.148" y2="2.101" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ce6cf7"/>
+      <stop offset="0.339" stop-color="#9966e3"/>
+      <stop offset="1" stop-color="#5860cb"/>
+      <stop offset="1" stop-color="#7decec" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_9302" data-name="Group 9302" transform="translate(-1740 -8)">
+    <rect id="Rectangle_3527" data-name="Rectangle 3527" width="33" height="32" rx="8" transform="translate(1740 8)" fill="url(#linear-gradient)"/>
+    <g id="moon" transform="translate(1747 14)">
+      <g id="moon-2" data-name="moon" transform="translate(0 0)">
+        <path id="Vector" d="M.022,8.261a8.325,8.325,0,0,0,15,4.2c.65-.88.3-1.466-.784-1.268a7.523,7.523,0,0,1-1.648.111,7.389,7.389,0,0,1-7.06-7.227,7.049,7.049,0,0,1,.594-2.892C6.551.2,6.036-.266,5.045.154A8.162,8.162,0,0,0,.022,8.261Z" transform="translate(1.587 1.581)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-2" data-name="Vector" d="M0,0H19.018V19.018H0Z" transform="translate(19.018 19.018) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

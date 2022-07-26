@@ -1,0 +1,16 @@
+.container {
+  @apply snap-x;
+  width: 100% !important;
+  height: 300px;
+
+  .wrapper {
+    // overflow: hidden;  \
+    border-radius: 23px;
+    background: transparent;
+    backdrop-filter: blur(13px);
+    --webkit-backdrop-filter: blur(13px);
+    background-color: #D26BF5 !important;
+    margin: 0rem 0rem;
+    font-weight: lighter;
+  }
+}

@@ -1,0 +1,45 @@
+.filterButton {
+  @apply mt-2 ml-1 rounded-lg text-[white] text-sm  dark:bg-[#112533] py-2 px-2;
+
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb);
+}
+
+.filterSelect {
+  @apply bg-[#EEECF0] text-[#5B5B5B] dark:bg-[#112533] dark:text-white w-40 h-10 mx-3 rounded-md p-1;
+}
+.filterInput {
+  @apply bg-[#E5E7E9] dark:bg-[#112533] p-1 dark:text-white mt-2 w-12 h-8 rounded-md ml-2;
+}
+
+.filterInput1 {
+  @apply bg-[#E5E7E9] dark:bg-[#112533] rounded-lg ml-4 h-9  text-gray-900 text-sm  
+   block xl:w-[350px]  lg:w-[300px] pl-10 p-2.5 
+      dark:border-gray-600 dark:placeholder-gray-400 dark:text-white;
+}
+
+.button1 {
+  @apply bg-[#EEECF0] mt-2 text-sm text-black py-2 px-2 rounded;
+}
+.secondSpan {
+  @apply lg:col-end-13 lg:mt-20 mt-6 lg:ml-auto col-span-12 lg:col-span-5;
+}
+.imgPossition {
+  @apply flex absolute inset-y-0 left-3 items-center pl-3 pointer-events-none;
+}
+
+:global(.dark) .filterButton {
+  color: white;
+  background-color: #112533;
+}
+:global(.dark) .filterInput1 {
+  background-color: #112533;
+  color: white;
+}
+:global(.dark) .filterInput {
+  background-color: #112533;
+  color: white;
+}
+:global(.dark) .filterSelect {
+  background-color: #112533;
+  color: white;
+}
