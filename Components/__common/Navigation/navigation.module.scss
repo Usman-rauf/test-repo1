@@ -1,17 +1,15 @@
 .wrapper {
-  @apply  flex items-center container  mx-auto  p-4 ;
-
- 
+  @apply flex items-center container  mx-auto  p-4;
 
   .menuIcon {
     @apply lg:hidden ml-auto text-black cursor-pointer text-3xl;
   }
-  .logo{
-    @apply cursor-pointer
+  .logo {
+    @apply cursor-pointer;
   }
-  
-  .linkWrapper{
-  @apply w-full lg:ml-24 flex justify-between hidden lg:flex 
+
+  .linkWrapper {
+    @apply w-full lg:ml-24 flex justify-between hidden lg:flex;
   }
   .links {
     @apply hidden lg:flex items-center cursor-pointer justify-between gap-12;
@@ -24,7 +22,7 @@
         .iconText {
           @apply w-full flex items-center;
           .icon {
-            @apply mr-[6px];
+            @apply mr-[6px] mb-0;
           }
           .text {
             @apply text-base;
@@ -43,7 +41,6 @@
           bottom: -37px;
         }
       }
-
     }
     .inactive {
       .link {
@@ -67,22 +64,20 @@
         }
       }
     }
-   
   }
 }
 .buttonn {
   @apply text-sm text-white px-3 py-2 rounded;
 
-  background-image: linear-gradient(to right, #CE6CF7, #5860CB) !important; 
-   }
-.containerr{
-  @apply w-full bg-white px-4 mx-auto shadow-md
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
 }
-:global(.dark) .containerr{
+.containerr {
+  @apply w-full bg-white px-4 mx-auto shadow-md;
+}
+:global(.dark) .containerr {
   @apply bg-black;
   color: white;
-
- }
- :global(.dark) .menuIcon{
+}
+:global(.dark) .menuIcon {
   color: white;
 }

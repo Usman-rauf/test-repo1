@@ -1,5 +1,5 @@
 .wrapper {
-  @apply text-sm bg-[#EDEBEF] font-medium text-center text-gray-500 border-b border-[#cccccc] dark:text-gray-400 dark:border-[#d3d2d2];
+  @apply text-sm bg-[#EDEBEF] font-medium  text-gray-500 border-b border-[#cccccc] dark:text-gray-400 dark:border-[#d3d2d2] text-center;
   .flexx {
     @apply flex flex-wrap -mb-px;
     .tab {
@@ -18,7 +18,7 @@
   @apply grid grid-cols-12 py-6;
 }
 .tablerow {
-  @apply  bg-[#EDEBEF] border-b text-black dark:bg-[#1C2024] dark:border-[#810000];
+  @apply bg-[#EDEBEF]  text-black dark:bg-[#1C2024] dark:border-[#810000] border-b;
   .tablehead {
     @apply px-6 py-7 font-normal flex  text-black dark:text-white whitespace-nowrap;
   }
@@ -26,7 +26,7 @@
     @apply ml-1 mt-[3px] my-auto text-xs;
   }
   .tableData {
-    @apply px-6 py-4 text-[13px];
+    @apply text-[13px] px-6 py-4;
   }
   .buttonSecondary {
     @apply dark:bg-[#1C3446] border border-[#CE6CF7] text-sm dark:text-white text-[#4594CD] bg-[white] px-3 py-2 rounded;
@@ -36,10 +36,10 @@
     background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
   }
   .textDanger {
-    @apply px-6 py-4 text-[13px] text-[#E86062];
+    @apply text-[13px] text-[#E86062] px-6 py-4;
   }
   .textSuccess {
-    @apply px-6 py-4 text-[13px] text-[#3FB791];
+    @apply text-[13px] text-[#3FB791] px-6 py-4;
   }
 }
 .topText {
@@ -59,11 +59,11 @@
 :global(.dark) .buttonSecondary {
   background: #1c3446;
 }
-:global(.dark) .tab{
+:global(.dark) .tab {
   color: white !important;
 }
-:global(.dark) .tablerow{
-  background-color: #1C2024;
+:global(.dark) .tablerow {
+  background-color: #1c2024;
   color: white;
 }
 
@@ -72,6 +72,6 @@
 
   border-bottom: 2px solid #d26bf5;
 }
-:global(.dark) .wrapper{
-  background-color: #1C2024;
+:global(.dark) .wrapper {
+  background-color: #1c2024;
 }

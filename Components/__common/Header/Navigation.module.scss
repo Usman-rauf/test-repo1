@@ -20,7 +20,7 @@
         .iconText {
           @apply w-full flex items-center;
           .icon {
-            @apply mr-[6px];
+            @apply mr-[6px] mb-0;
           }
           .text {
             @apply text-base;

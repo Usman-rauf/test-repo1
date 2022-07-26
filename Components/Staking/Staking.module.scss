@@ -13,10 +13,10 @@
             @apply flex justify-between px-3 my-2;
           }
           .cardText {
-            @apply text-[#BFBFBF] text-[13px];
+            @apply text-[#BFBFBF] text-[13px] mb-0;
           }
           .text {
-            @apply text-[10px] md:text-[14px];
+            @apply text-[10px] md:text-[14px] mb-0;
           }
 
           .divIndex {
@@ -29,7 +29,7 @@
             border-radius: 2%;
             .imgIndex {
               @apply text-center;
-            width: 100%;
+              width: 100%;
             }
 
             .buttonMargin {

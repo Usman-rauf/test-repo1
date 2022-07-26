@@ -1,20 +1,20 @@
-.gridd{
-    @apply grid mx-auto grid-cols-12 py-24;
-    .firstSpan{
-        @apply lg:col-span-6 md:col-span-12 col-span-12;
-        .firstBg{
-            @apply bg-[#F0F0F0] px-5 py-8 border border-[#BFBFBF];
-            .firstHeading{
-                @apply text-center text-[25px] pt-6;
-            }
-            .flexx{
-                @apply flex justify-center gap-12 mt-6;
-            }
-        }
+.gridd {
+  @apply grid mx-auto grid-cols-12 py-24;
+  .firstSpan {
+    @apply lg:col-span-6 md:col-span-12 col-span-12;
+    .firstBg {
+      @apply bg-[#F0F0F0] px-5 py-8 border-[#BFBFBF] border;
+      .firstHeading {
+        @apply text-center text-[25px] pt-6;
+      }
+      .flexx {
+        @apply flex justify-center gap-12 mt-6;
+      }
     }
+  }
 }
-:global(.dark) .firstBg{
-    background-color: rgba(4, 7, 7, .8) !important;
-    color: white;
-    border: 1px solid #5B5B5B;
+:global(.dark) .firstBg {
+  background-color: rgba(4, 7, 7, 0.8) !important;
+  color: white;
+  border: 1px solid #5b5b5b;
 }
