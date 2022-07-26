@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../styles/globals.scss";
 import Layout from "../Components/__common/LandingLayout";
 function MyApp({ Component, pageProps }) {
   return (
