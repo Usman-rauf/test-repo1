@@ -1,5 +1,5 @@
 import react, { useState } from "react";
-import styles from "./Layout.module.scss";
+// import styles from "./Layout.module.scss";
 import Navigation from "../Navigation";
 import Footer from "../Footer";
 import PreNav from "../PreNavBar";

@@ -2,12 +2,20 @@ import React, { useCallback, useEffect, useRef } from "react";
 // import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import OutsideClickHandler from "react-outside-click-handler";
 import cn from "classnames";
-import styles from "./modal.module.scss";
+import styles from "./Modal.module.scss";
 // import autoMergeLevel1 from "redux-persist/es/stateReconciler/autoMergeLevel1";
 // import { CreateAccountCheck } from "../../../redux/action/CreateAccountAction.js";
 // import { useDispatch, useSelector } from "react-redux";
- 
-export default function Modal({ visible, onClose, children, btn,outerStyle,btnStyle ,showModal2}) {
+
+export default function Modal({
+  visible,
+  onClose,
+  children,
+  btn,
+  outerStyle,
+  btnStyle,
+  showModal2,
+}) {
   // const dispatch = useDispatch();
   const escFunction = useCallback(
     (e) => {
@@ -18,7 +26,7 @@ export default function Modal({ visible, onClose, children, btn,outerStyle,btnSt
         onClose();
       }
     },
-    [onClose] 
+    [onClose]
   );
 
   useEffect(() => {
@@ -29,7 +37,7 @@ export default function Modal({ visible, onClose, children, btn,outerStyle,btnSt
       document.removeEventListener("keydown", escFunction, false);
       document.removeEventListener("click", escFunction, false);
     };
-  }, [escFunction]); 
+  }, [escFunction]);
 
   const scrollRef = useRef(null);
   // const handle = () => {
@@ -42,12 +50,18 @@ export default function Modal({ visible, onClose, children, btn,outerStyle,btnSt
   }, [visible]);
   if (visible) {
     return (
-      <div className={`${showModal2 ? styles.modal2 : styles.modal }`} ref={scrollRef}  >
+      <div
+        className={`${showModal2 ? styles.modal2 : styles.modal}`}
+        ref={scrollRef}
+      >
         <div className={cn(styles.outer)} style={outerStyle}>
-          <OutsideClickHandler onOutsideClick={onClose}> 
-         
+          <OutsideClickHandler onOutsideClick={onClose}>
             {btn && (
-              <button className={styles.close} onClick={onClose} style={btnStyle}>
+              <button
+                className={styles.close}
+                onClick={onClose}
+                style={btnStyle}
+              >
                 close
               </button>
             )}
