@@ -1,0 +1,88 @@
+.wrapper {
+  @apply  flex items-center container  mx-auto  p-4 ;
+
+ 
+
+  .menuIcon {
+    @apply lg:hidden ml-auto text-black cursor-pointer text-3xl;
+  }
+  .logo{
+    @apply cursor-pointer
+  }
+  
+  .linkWrapper{
+  @apply w-full lg:ml-24 flex justify-between hidden lg:flex 
+  }
+  .links {
+    @apply hidden lg:flex items-center cursor-pointer justify-between gap-12;
+    .active {
+      .link {
+        @apply relative flex flex-col items-center;
+        .text {
+          @apply text-base;
+        }
+        .iconText {
+          @apply w-full flex items-center;
+          .icon {
+            @apply mr-[6px];
+          }
+          .text {
+            @apply text-base;
+          }
+        }
+        .activeBar {
+          width: calc(100% + 20px);
+          height: 7px;
+          border-radius: 4.5px;
+          background: linear-gradient(
+            90deg,
+            rgba(65, 68, 106, 1) 0%,
+            rgba(15, 14, 63, 1) 100%
+          );
+          position: absolute;
+          bottom: -37px;
+        }
+      }
+
+    }
+    .inactive {
+      .link {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .text {
+          @apply text-base;
+        }
+        .iconText {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          .icon {
+            margin-right: 6px;
+          }
+          .text {
+            @apply text-base;
+          }
+        }
+      }
+    }
+   
+  }
+}
+.buttonn {
+  @apply text-sm text-white px-3 py-2 rounded;
+
+  background-image: linear-gradient(to right, #CE6CF7, #5860CB) !important; 
+   }
+.containerr{
+  @apply w-full bg-white px-4 mx-auto shadow-md
+}
+:global(.dark) .containerr{
+  @apply bg-black;
+  color: white;
+
+ }
+ :global(.dark) .menuIcon{
+  color: white;
+}

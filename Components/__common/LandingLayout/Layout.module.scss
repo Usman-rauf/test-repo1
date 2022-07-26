@@ -1,0 +1,17 @@
+.wrapper {
+  @apply w-screen flex flex-col items-center justify-between min-h-[100vh];
+  background-image: url("../../../public/Assests/BG_Light.png");
+}
+:global(.dark) .wrapper {
+  @apply w-screen flex flex-col items-center justify-between min-h-[100vh];
+  background-image: url("../../../public/Assests/BG.png");
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    background-image: url("../../../public/Assests/BG_Light.png");
+    // background-position: top;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+  }
+}

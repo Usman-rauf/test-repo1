@@ -1,0 +1,37 @@
+.containerr{
+    @apply container mx-auto mt-10  px-4;
+    .permoteHead{
+        @apply text-center lg:text-[30px] text-[20px] font-medium;
+    }
+    .permoteText{
+        @apply text-center lg:text-[16px] text-[12px] mt-3 
+    }
+    .secondText{
+        @apply text-center lg:text-[18px] text-[14px] font-medium mt-3 dark:text-white
+    }
+    .gridd{
+        @apply grid grid-cols-12 mt-4;
+
+        .spann{
+            @apply lg:col-span-10 col-span-12 lg:col-start-2;
+            .divFlex{
+                @apply flex bg-[#1C2024] rounded-md p-3 justify-center;
+                .bannerText{
+                    @apply font-medium text-white  text-[14px] my-auto ml-3 dark:text-white;
+                } 
+            }
+
+        }
+
+    }
+}
+
+:global(.dark) .permoteHead{
+    color: white;
+}
+:global(.dark) .permoteText{
+    color: white;
+}
+:global(.dark) .secondText{
+    color: white;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="32" viewBox="0 0 33 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.05" y1="0.171" x2="2.148" y2="2.101" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ce6cf7"/>
+      <stop offset="0.339" stop-color="#9966e3"/>
+      <stop offset="1" stop-color="#5860cb"/>
+      <stop offset="1" stop-color="#7decec" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_9598" data-name="Group 9598" transform="translate(-1740 -15)">
+    <g id="Group_9302" data-name="Group 9302" transform="translate(0 7)">
+      <rect id="Rectangle_3527" data-name="Rectangle 3527" width="33" height="32" rx="8" transform="translate(1740 8)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="sun" transform="translate(1575 -166)">
+      <g id="sun-2" data-name="sun" transform="translate(172 188)">
+        <path id="Vector" d="M9.914,4.957A4.957,4.957,0,1,1,4.957,0,4.957,4.957,0,0,1,9.914,4.957Z" transform="translate(4.194 4.194)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-2" data-name="Vector" d="M12.972,2.28l.1-.1ZM2.181,13.071l.1-.1ZM7.626.061v0Zm0,15.191v0ZM.061,7.626h0Zm15.191,0h0ZM2.28,2.28l-.1-.1ZM13.071,13.071l-.1-.1" transform="translate(1.525 1.525)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0H18.3V18.3H0Z" transform="translate(18.303 18.303) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+
+.tablee{
+    @apply w-full text-sm text-left snap-x rounded-lg  text-gray-500 dark:text-white
+}
+:global(.dark) .tablee{
+    color: white;
+}
+.tableGrid{
+    @apply grid grid-cols-12 py-6
+}
+.tablerow{
+    @apply bg-[#F0F0F0] border-b dark:bg-[#112533] dark:border-[#816868];
+    .tablehead{
+       @apply px-6 py-7 font-normal flex text-gray-900 dark:text-white whitespace-nowrap
+    }
+    .headText{
+        @apply ml-1 mt-[3px] my-auto text-xs
+    }
+    .tableData{
+        @apply px-6 py-4 text-[13px]
+    }
+    .buttonSecondary{
+        @apply dark:bg-[#1C3446] border border-[#CE6CF7] text-sm dark:text-white text-[#4594CD] bg-[white] px-3 py-2 rounded
+    }
+    .buttonPrimary{
+        @apply text-sm text-white px-3 py-2 rounded;
+        background-image: linear-gradient(to right, #CE6CF7, #5860CB) !important;
+    }
+    .textDanger{
+        @apply px-6 py-4 text-[13px] text-[#E86062]
+    }
+    .textSuccess{
+        @apply px-6 py-4 text-[13px] text-[#3FB791]
+    }
+}
+.topText{
+    font-size: 13px;
+    font-weight: normal;
+}
+.tableShadow {
+    @apply relative overflow-x-auto shadow-md sm:rounded-lg
+}
+:global(.dark) .tablerow {
+    background-color: #112533;
+    border-bottom: 1px solid #816868;
+}
+:global(.dark) .tablehead {
+   color: white;
+}
+:global(.dark) .buttonSecondary{
+    background: #1C3446;
+}
+

@@ -1,0 +1,58 @@
+.containerr {
+  @apply container px-4 mx-auto;
+  .uperGrid {
+    @apply grid grid-cols-12;
+    .uperSpan {
+      @apply lg:col-span-10 col-span-12 mt-12 lg:col-start-2;
+      .inerGrid {
+        @apply grid grid-cols-12;
+        .inerSpan {
+          @apply lg:col-span-4 md:col-span-6 col-span-12;
+
+          .divFlex {
+            @apply flex justify-between px-3 my-2;
+          }
+          .cardText {
+            @apply text-[#BFBFBF] text-[13px];
+          }
+          .text {
+            @apply text-[10px] md:text-[14px];
+          }
+
+          .divIndex {
+            @apply pb-4 text-white m-2 mb-4;
+            background-image: -webkit-linear-gradient(
+              top,
+              #272b2f 55%,
+              #1c2024 45%
+            );
+            border-radius: 2%;
+            .imgIndex {
+              @apply text-center;
+            width: 100%;
+            }
+
+            .buttonMargin {
+              @apply px-3 mt-4;
+              .button {
+                @apply text-white w-full h-10 rounded;
+
+                background-image: linear-gradient(to right, #ce6cf7, #5860cb);
+                &:hover {
+                  background-color: transparent !important;
+                  background-image: none;
+                  border: 1px solid #ce6cf7;
+                  border-color: linear-gradient(
+                    to right,
+                    red,
+                    purple
+                  ) !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

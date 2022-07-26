@@ -1,0 +1,19 @@
+.gridd{
+    @apply grid grid-cols-12 my-16;
+    .spann{
+        @apply col-span-12 lg:col-start-2 lg:col-span-10;
+        .card{
+            @apply  w-full p-4 rounded-md;
+            background-color: rgba(4, 7, 7, .6);
+            border: 1px solid #D26BF5;
+            .heading{
+                @apply text-center text-[23px] lg:text-[30px] font-medium text-white;
+                
+            }
+            .text{
+                @apply text-[14px] text-white text-center my-4 px-4;
+            }
+        }
+    }
+    
+}

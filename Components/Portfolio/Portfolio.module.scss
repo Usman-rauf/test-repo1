@@ -1,0 +1,9 @@
+.portfolioBg{
+    @apply my-10 text-[black] rounded-md p-5 pb-8 min-w-full;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+:global(.dark) .portfolioBg{
+    background-color: rgba(8, 5, 18, .5);
+}

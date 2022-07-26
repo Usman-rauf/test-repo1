@@ -1,0 +1,54 @@
+
+.link {
+  @apply dark:text-white text-[13px];
+}
+.second {
+  @apply lg:col-span-4 col-span-12 md:col-span-6 px-3 py-4 md:py-12 border-r dark:border-[#363535];
+}
+:global(.dark) .second{
+  border-right: 1px solid #363535;
+}
+.third {
+  @apply lg:col-span-4 col-span-12 md:col-span-6 py-4 md:py-12 px-5;
+}
+.newsLetter {
+  @apply dark:text-white text-[13px];
+}
+:global(.dark) .newsLetter{
+  color: white
+}
+.newsLetterImg {
+  @apply flex absolute inset-y-0 right-1 items-center pl-3 cursor-pointer pointer-events-none;
+}
+.first {
+  @apply lg:col-span-4 md:col-span-6 col-span-12 px-3 py-4 md:py-12 border-r ;
+}
+:global(.dark) .first{
+  border-right: 1px solid #363535 
+}
+.logoText {
+  @apply mt-[6px] ml-[10px] text-[23px];
+}
+:global(.dark) .logoText{
+  color: white;
+}
+.footertext {
+  @apply dark:text-white text-[14px] mt-3;
+}
+.firsttext {
+  @apply text-black mt-3 text-[13px];
+}
+:global(.dark) .firsttext {
+  @apply text-white mt-3;
+}
+.rights {
+  @apply dark:text-white text-[13px] mt-16;
+}
+.footerInput{
+  @apply bg-[#EEF8FF] h-10  text-gray-900 text-sm rounded-lg focus:ring-blue-500 
+  focus:border-blue-500  min-w-full pl-10 p-2.5 
+}
+:global(.dark) .footerInput{
+  background: #212C32;
+  color: white;
+}
