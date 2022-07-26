@@ -1,9 +1,9 @@
 .wrapper {
-  @apply w-screen flex flex-col items-center justify-between min-h-[100vh];
+  @apply min-h-[100vh] w-screen flex flex-col items-center justify-between;
   background-image: url("../../../public/Assests/BG_Light.png");
 }
 :global(.dark) .wrapper {
-  @apply w-screen flex flex-col items-center justify-between min-h-[100vh];
+  @apply min-h-[100vh] w-screen flex flex-col items-center justify-between;
   background-image: url("../../../public/Assests/BG.png");
 }
 

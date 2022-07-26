@@ -1,39 +1,39 @@
-.gridd{
-    @apply grid grid-cols-12;
+.gridd {
+  @apply grid grid-cols-12;
 
-    .firstSpan{
-        @apply col-span-12 lg:col-span-4;
-        
-        .cardBg{
-            @apply bg-[#EDEBEF] mt-6 rounded-md p-3 w-full;
-            .cardText{
-                @apply text-[black] text-[14px]
-            }
-            .secondText{
-                @apply text-[#646464] text-[14px] mt-3;
-            }
-            .flexx{
-                @apply flex justify-between mt-4
-            }
-            .successText{
-                @apply text-[#3FB791] text-[25px]
-            }
-            .dangerText{
-                @apply text-[25px] text-[#E86062];
-            }
-            .underLine{
-                @apply text-[18px] text-[#D26BF5] cursor-pointer mt-4 underline;
-            }
-        }
+  .firstSpan {
+    @apply col-span-12 lg:col-span-4;
+
+    .cardBg {
+      @apply bg-[#EDEBEF] mt-6 rounded-md p-3 w-full;
+      .cardText {
+        @apply text-[black] text-[14px] mb-0;
+      }
+      .secondText {
+        @apply text-[#646464] text-[14px] mt-3;
+      }
+      .flexx {
+        @apply flex justify-between mt-4;
+      }
+      .successText {
+        @apply text-[#3FB791] text-[25px] mb-0;
+      }
+      .dangerText {
+        @apply text-[25px] text-[#E86062] mb-0;
+      }
+      .underLine {
+        @apply text-[18px] text-[#D26BF5] cursor-pointer mt-4 underline;
+      }
     }
+  }
 }
 
-:global(.dark) .cardText{
-    color: white !important;
+:global(.dark) .cardText {
+  color: white !important;
 }
-:global(.dark) .cardBg{
-    background-color: #1C2024 !important;
+:global(.dark) .cardBg {
+  background-color: #1c2024 !important;
 }
-:global(.dark) .secondText{
-    color: #BFBFBF;
+:global(.dark) .secondText {
+  color: #bfbfbf;
 }

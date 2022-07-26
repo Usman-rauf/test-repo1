@@ -1,37 +1,37 @@
-.cardBg{
-    @apply shadow-lg p-5  dark:bg-[#1C2024] dark:text-white rounded-md bg-[#EEECF0];
-    .heading{
-        @apply ml-2 text-[20px] font-medium whitespace-nowrap
-    }
-    .image{
-        @apply object-contain
-    }
-    .text{
-        @apply text-[10px] ml-2 mt-1
-    }
-    .flexx{
-        @apply flex mt-4 justify-between
-    }
-    .success{
-        @apply text-[#3FB791]
-    }
+.cardBg {
+  @apply shadow-lg p-5  dark:bg-[#1C2024] dark:text-white bg-[#EEECF0]  rounded-md;
+  .heading {
+    @apply ml-2 text-[20px] font-medium whitespace-nowrap;
+  }
+  .image {
+    @apply object-contain;
+  }
+  .text {
+    @apply text-[10px] ml-2 mt-1;
+  }
+  .flexx {
+    @apply flex mt-4 justify-between;
+  }
+  .success {
+    @apply text-[#3FB791] mb-0;
+  }
 }
-.priceHeading{
-    @apply  text-[20px] lg:text-[25px] dark:text-white font-medium
+.priceHeading {
+  @apply text-[20px] lg:text-[25px] dark:text-white font-medium;
 }
-.toggleText{
-    @apply mr-3 text-[13px]
+.toggleText {
+  @apply text-[13px] mr-3;
 }
-:global(.dark) .toggleText{
-    color: white;
+:global(.dark) .toggleText {
+  color: white;
 }
-:global(.dark) .priceHeading{
-    color: white;
+:global(.dark) .priceHeading {
+  color: white;
 }
-:global(.dark) .cardBg{
-    background-color: #1C2024;
-    color: white;
+:global(.dark) .cardBg {
+  background-color: #1c2024;
+  color: white;
 }
-.firstSpan{
-   @apply lg:col-span-4 md:col-span-6  col-span-12 mt-6
+.firstSpan {
+  @apply lg:col-span-4 md:col-span-6  col-span-12 mt-6;
 }
